@@ -1,7 +1,30 @@
 aid: homeis
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/homeis.png
 name: Homeis
-description: Homeis is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Homeis was a social networking platform for immigrant and foreign-born
+  communities, founded in January 2017 by Ran Harnevo and Hanan Laschover with
+  offices in New York City and Tel Aviv. The app matched users by country of
+  origin and current city so newcomers could find their community for tips,
+  jobs, dating, events, and local services, serving groups such as Israelis in
+  the U.S., Latinos in Canada, French-speaking Africans in France, and South
+  Asians in the Emirates. It reached more than one million users and raised
+  roughly $16 million, including a $12 million Series A led by Canaan Partners
+  and Spark Capital. The consumer app shut down in Summer 2021 and never
+  reopened; homeis.com is now a parked domain listed for sale. Homeis published
+  no public developer program, API, SDK, or documentation surface, so there are
+  no API artifacts to enrich for this profile.
 url: https://raw.githubusercontent.com/api-evangelist/homeis/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,29 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: >-
+  Consumer social app shut down Summer 2021; domain homeis.com now parked/for
+  sale. No public API or developer surface exists to enrich (verified 2026-07-19).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Social Network
+- Immigration
+- Community
+- Mobile Application
+- Consumer
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
