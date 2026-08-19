@@ -36,7 +36,7 @@ x-status: defunct
 x-status-note: >-
   Consumer social app shut down Summer 2021; domain homeis.com now parked/for
   sale. No public API or developer surface exists to enrich (verified 2026-07-19).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
