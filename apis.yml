@@ -37,6 +37,8 @@ description: >-
   no public developer program, API, SDK, or documentation surface, so there are
   no API artifacts to enrich for this profile.
 url: https://raw.githubusercontent.com/api-evangelist/homeis/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
